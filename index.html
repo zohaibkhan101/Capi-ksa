@@ -7,43 +7,56 @@
   <meta name="description" content="CAPI Global Company - Combining Saudi heritage with modern construction. Services: Mud Houses, Civil & Construction, Electrical & Mechanical, Water Features." />
   <link rel="icon" href="assets/images/favicon.png" />
   <link rel="stylesheet" href="assets/css/styles.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
 </head>
 <body>
   <header class="site-header">
-    <div class="container header-inner">
+    <div class="header-inner">
       <a href="index.html" class="brand">
         <img src="assets/images/logo.png" alt="CAPI Global Logo" class="logo" />
-        <span class="brand-text">CAPI Global Company</span>
       </a>
       <nav class="main-nav">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="services.html">Services</a>
         <a href="projects.html">Projects</a>
-        <a href="contact.html" class="btn btn-primary">Contact</a>
+        <a href="contact.html">Contact</a>
       </nav>
-      <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
     </div>
   </header>
 
   <main>
     <!-- Hero -->
-    <section class="hero">
+    <section class="hero" style="background-image: url('assets/images/hero-bg.jpg');">
+      <div class="hero-overlay"></div>
       <div class="container hero-inner">
-        <div class="hero-content">
-          <h1>Preserving Saudi Heritage. Building the Future.</h1>
-          <p class="lead">CAPI Global Company blends traditional Saudi architecture with modern engineering to deliver heritage-driven, sustainable, high-quality construction & facilities management across the Kingdom.</p>
-          <div class="hero-cta">
-            <a href="contact.html" class="btn btn-primary">Request A Quote</a>
-            <a href="services.html" class="btn btn-outline">Our Services</a>
-          </div>
-        </div>
-        <div class="hero-image">
-          <img src="assets/images/hero.jpg" alt="CAPI project image" />
-        </div>
+        <h1>Excellence in Every Detail</h1>
+        <p class="lead">Crafting the future of construction with heritage and innovation.</p>
+        <a href="contact.html" class="btn btn-primary">Discover More</a>
       </div>
     </section>
-
+   <section id="about" class="about">
+        <h1 class="heading">About Us</h1>
+        <div class="row">
+            <div class="content">
+                <h3>Blending Tradition with Innovation</h3>
+                <p>CAPI Global Company is a visionary Saudi Arabian firm specializing in integrating the Kingdom’s rich architectural heritage with modern engineering innovation. Established in alignment with Saudi Vision 2030, we are dedicated to preserving and reviving traditional regional styles while creating timeless, functional structures.</p>
+                <p>
+        CAPI is a company dedicated to blending the past and present in architectural design. 
+        In line with the 2030 vision, we aim to reflect Saudi Arabia's historical richness by 
+        integrating <strong>Najdi, Alahsa, and Alhejaz</strong> styles.
+      </p>
+      <p>
+        Our goal is to become a leader in this field by creating unique trademark finishes that 
+        combine classic and modern elements. We will establish an engineering office to initiate 
+        local standards and collaborate with other systems for optimal results. CAPI is committed 
+        to leaving a lasting impact on the architectural industry.
+      </p>
+                <a href="#"><button class="btn">Read More</button></a>
+            </div>
+        </div>
+    </section>
+  
     <!-- Quick Stats -->
     <section class="stats">
       <div class="container grid grid-4">
@@ -66,7 +79,7 @@
       </div>
     </section>
 
-    <!-- Services Preview -->
+    <!-- Services Preview
     <section class="services-preview">
       <div class="container">
         <h2>Our Core Services</h2>
@@ -94,6 +107,77 @@
           </article>
         </div>
         <div class="text-center"><a href="services.html" class="btn btn-outline">View All Services</a></div>
+      </div>
+    </section> -->
+
+    <!-- Our Services Section
+    <section class="services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <div class="grid grid-3">
+          <div class="service-card">
+            <img src="assets/images/service-mud.jpg" alt="Mud Houses">
+            <h4>Mud Houses</h4>
+            <p>Restoration and modernization of heritage mud structures.</p>
+          </div>
+          <div class="service-card">
+            <img src="assets/images/service-civil.jpg" alt="Civil Works">
+            <h4>Civil Works</h4>
+            <p>Comprehensive construction solutions for all sectors.</p>
+          </div>
+          <div class="service-card">
+            <img src="assets/images/service-water.jpg" alt="Water Features">
+            <h4>Water Features</h4>
+            <p>Design and installation of fountains and decorative systems.</p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Detailed Services Section -->
+    <section class="services">
+      <!-- Mud Houses Section -->
+      <div class="service-section">
+        <div class="service-text">
+          <h2>Mud Houses</h2>
+          <p>Restoration and modernization of heritage mud structures using sustainable local materials.</p>
+        </div>
+        <div class="service-image">
+          <img src="assets/images/service-mud.jpg" alt="Mud Houses">
+        </div>
+      </div>
+
+      <!-- Civil Works Section -->
+      <div class="service-section">
+        <div class="service-text">
+          <h2>Civil Works</h2>
+          <p>Comprehensive construction solutions, including excavation, masonry, and infrastructure development.</p>
+        </div>
+        <div class="service-image">
+          <img src="assets/images/service-civil.jpg" alt="Civil Works">
+        </div>
+      </div>
+
+      <!-- Electrical & Mechanical Works Section -->
+      <div class="service-section">
+        <div class="service-text">
+          <h2>Electrical & Mechanical Works</h2>
+          <p>Turnkey MEP solutions for hospitals, airports, data centers, and hospitality sectors.</p>
+        </div>
+        <div class="service-image">
+          <img src="assets/images/service-mep.jpg" alt="Electrical & Mechanical Works">
+        </div>
+      </div>
+
+      <!-- Water Features Section -->
+      <div class="service-section">
+        <div class="service-text">
+          <h2>Water Features</h2>
+          <p>Design, installation, and refurbishment of fountains and decorative water systems.</p>
+        </div>
+        <div class="service-image">
+          <img src="assets/images/service-water.jpg" alt="Water Features">
+        </div>
       </div>
     </section>
 
@@ -175,5 +259,6 @@
   </footer>
 
   <script src="assets/js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 </body>
 </html>
